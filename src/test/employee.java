@@ -56,7 +56,7 @@ public class employee {
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.id("btnLogin")).click();
-		
+
 	}
 
 	@AfterTest
