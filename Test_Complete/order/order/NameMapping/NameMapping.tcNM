@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{34B27915-282B-4985-B986-FF86D7D2CFD9}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4A3DF70F-0977-490D-94D8-12CBA4AFED70}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{429A42CF-822F-4EEE-A118-A08113EE7FA8}">
+								<Image FileName="450958453" Left="0" Top="0" Right="954" Bottom="735" />
+								<TypeInfo Item0="{C4DAAB88-070E-494F-91CE-427E97CAFE19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4A3DF70F-0977-490D-94D8-12CBA4AFED70}">
+			<Child Name="BrowserWindow" Owner="{429A42CF-822F-4EEE-A118-A08113EE7FA8}" />
+		</Child>
+	</LogicalNodes>
+</Root>
